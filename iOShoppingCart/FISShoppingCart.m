@@ -16,7 +16,7 @@
     NSUInteger sum = 0;
     
     for (FISItem *item in self.items) {
-        sum = sum + item.priceInCents;
+        sum += item.priceInCents;
     }
     return sum;
 }
